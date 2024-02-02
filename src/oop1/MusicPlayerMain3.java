@@ -17,8 +17,8 @@ package oop1;
  * 음악 플레이어 ON, 볼륨:1
  * 음악 플레이어를 종료합니다
  * */
+//여기까지의 문제 데이터와 기능이 분리되어 있음 현재까지는 절차지향이다(data는 MusicPlayerData에 기능은 MusicPlayerMain3에 있음)
 //현재 중복되는 코드가 많음 - 메서드 추출
-//MusicPalyerData라는 객체를 만들어 객체지향으로 점차 바꿔보자
 public class MusicPlayerMain3 {
     public static void main(String[] args) {
         MusicPlayerData data = new MusicPlayerData();
