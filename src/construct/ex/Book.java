@@ -5,7 +5,6 @@ public class Book {
     String author; //저자
     int page; //페이지 수
 
-    //ToDo 코드를 완성하세요
     Book() {
         this("", "", 0);
     }
